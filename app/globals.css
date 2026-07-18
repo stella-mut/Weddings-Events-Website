@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background-color: #F7F3EE;
+  color: #29231F;
+}
+
+::selection {
+  background-color: #D8C5A9;
+  color: #29231F;
+}
+
+/* visible keyboard focus, on-brand */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #29231F;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* thin hand-drawn-style flourish rule used as the site's signature mark */
+.flourish {
+  display: block;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #D8C5A9 15%, #D8C5A9 85%, transparent);
+}
+
+.eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: #B8AAA0;
+}
+
+.hairline {
+  border-color: #B8AAA0;
+}
+
+/* custom scrollbar, quiet and on-brand */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F3EE;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8C5A9;
+  border-radius: 999px;
+  border: 2px solid #F7F3EE;
+}
