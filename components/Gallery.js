@@ -18,12 +18,7 @@ const images = [
     tag: "Weddings",
     span: "",
   },
-  {
-    src: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=900&q=80",
-    caption: "Meridian Capital, Annual Gala",
-    tag: "Corporate",
-    span: "",
-  },
+  
   {
     src: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80",
     caption: "Reception Details, Ochre & Ivory",
