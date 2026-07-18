@@ -19,7 +19,7 @@ const images = [
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1519167758481-83f29b1fe0ac?auto=format&fit=crop&w=900&q=80",
+    src: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=900&q=80",
     caption: "Meridian Capital, Annual Gala",
     tag: "Corporate",
     span: "",
